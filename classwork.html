@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1></h1>
+    <h1 id="heading2"></h1>
+    <h1></h1>
+    <h1></h1> -->
+    <!-- <button id="btn" onclick="click()">
+        click me
+    </button> -->
+
+    <h1></h1>
+    <button onclick="previous()">previous</button>
+    <button onclick="next()">next</button>
+    <script>
+        // function click(){
+        //     alert("hello! click ok");
+        //     document.getElementById('btn').style.background="black";
+        //     document.getElementById('btn').style.color="white";
+        //     document.getElementById('btn').style.border="solid 3px blue";
+        // }
+
+        let no = document.getElementsByTagName('h1')[0].innerText = 1;
+        function previous(){
+            no-=1;
+            document.getElementsByTagName('h1')[0].innerText = no;
+
+        }
+        function next(){
+            no+=1;
+            document.getElementsByTagName('h1')[0].innerText = no;
+        }
+
+        // const lengthOfHeading = document.getElementsByTagName('h1').length;
+        // console.log(lengthOfHeading);
+        // for(let i =0 ; i<lengthOfHeading ; i++){
+        //     document.getElementsByTagName('h1')[i].innerHTML="hello rabia";
+        // }
+        // document.getElementById('heading2').innerHTML="hello zahra";
+        // document.getElementsByTagName('h1')[1].style.color = "blue";
+        // document.getElementById('heading2').style.background="grey";
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,362 @@
+.thumb{
+    width: 100vw;
+    height: 550px;
+    background-color: rgb(151, 167, 167);
+    background-image: url("../thumb5.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  
+}
+.box{
+    height: 80px;
+    width: 500px;
+    background-color: rgb(252, 236, 236);
+    border-radius: 10px;
+    opacity: 0.77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.search{
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    gap: 6px;
+}
+.search input {
+    background: rgb(250, 237, 241);
+    border-radius: 3px;
+    outline: none;
+    
+    
+}
+#se{
+    display: flex;
+}
+.search button{
+    background-color: red;
+    outline: none;
+    
+}
+@media (max-width: 700px){
+    .thumb{
+        
+        background-color: rgb(95, 87, 87);
+        height: 300px;
+    }
+    .box{
+        height: 130px;
+        width: 400px;
+    }
+    .button{
+        /* display: flex; */
+    }
+
+}
+@media (max-width: 400px){
+    .search{
+        
+        flex-direction: column;
+    }
+    .thumb{
+        /* background-image: none; */
+        /* background-image: url("../thumb10.jpeg"); */
+        background-size: cover;
+    }
+    .box{
+        height: 100px;
+        width: 250px
+    }
+}
+.about{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(245, 255, 251);
+    display: flex;
+    gap: 200px;
+    position: relative;
+
+}
+.our{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding-top: 40px;
+
+}
+#story{
+    color: green;
+    font-weight: bold;
+
+}
+#intro{
+    font-weight: bold;
+}
+.secp{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* position: relative; */
+    
+}
+.under{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    padding-top: 150px;
+
+
+}
+.pic{
+    position: absolute;
+    height: 130px;
+    width: 140px;
+    background-color: black;
+    left: 700px;
+    top: 230px;
+    border-radius: 60%;
+    background-image: url("../thumb2.jpg");
+    background-size: cover;
+  
+}
+.pic2{
+    position: absolute;
+    height: 185px;
+    width: 200px;
+    background-color: black;
+    left: 900px;
+    top: 150px;
+    border-radius: 60%;
+    background-image: url("../thumb4.jpg");
+    background-size: cover;
+  
+}
+@media (max-width: 1100px){
+    .pic{
+        display: none;
+    }
+    .pic2{
+        display: none;
+    }
+    
+}
+@media (max-width: 1100px){
+    .under{
+        font-size: 14px;
+    }
+}
+@media (max-width: 500px){
+    .under{
+        font-size: 10px;
+    }
+    #intro{
+        font-weight: bold;
+        font-size:10px ;
+    }
+    .our{
+        font-size: 10px;
+    }
+    .about{
+        gap: 50px;
+    }
+}
+.third{
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(179, 179, 169);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+
+}
+.tit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 210px;
+    color: rgb(10, 10, 9);
+    font-weight: bolder;
+    
+}
+.cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cen1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 2px;
+    background-image: url("../images.jpg");
+    background-size: cover;
+}
+.cen2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 2px;
+    background-image: url("../tumb3.jpg");
+    background-size: cover;
+}
+.cen3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 2px;
+    background-image: url("../thumb2.jpg");
+    /* background-size: cover; */
+}
+@media (max-width: 750px){
+    .cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .cen1{
+        height: 150px;
+    width: 200px; 
+    background-size: cover;
+    }
+    .cen2{
+        height: 150px;
+        width: 200px; 
+        background-size: cover; 
+    }
+    .cen3{
+        height: 150px;
+    width: 200px; 
+    background-size: cover;
+    }
+    .third{
+        width: 100vw;
+        height: 600px;
+    }
+   
+}
+.four{
+    height: 450px;
+    width: 100vw;
+    background-image: url("../3.jpg");
+    background-size: cover;
+    /* opacity: 75%; */
+    display: flex;
+    flex-direction: column;
+    
+      padding-left: 100px;
+     justify-content: center;
+}
+.div{
+    height: 30px;
+    width: 450px;
+    background-color: rgb(231, 25, 25);
+    align-items: center;
+    border-radius: 20px 20px 1px 1px;
+}
+.divs{
+    height:250px ;
+    width: 450px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+   
+}
+#pae{
+    padding-left: 50px;
+    font-size: 16px;
+
+}
+@media (max-width: 800px){
+    .div{
+        height: 20px;
+        width: 350px;  
+
+    }
+    .divs{
+        height:150px ;
+        width: 350px;
+
+    }
+    #pae{
+        font-size: 12px;
+    }
+}
+@media (max-width: 500px){
+    .div{
+        height: 20px;
+        width: 200px;  
+
+    }
+    .divs{
+        height:90px ;
+        width: 200px;
+
+    }
+    #pae{
+        font-size: 8px;
+    }
+}
+.footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+   
+}
+
+.foot{
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    background-image: url("../f1.jpg");
+    background-size: cover;
+
+}
+.foot1{
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    background-image: url("../f2.jpg");
+    background-size: cover;
+ 
+}
+
+.foot2{
+    height: 30px;
+    width: 30px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    background-image: url("../f3.jpg");
+    background-size: cover;
+   
+    
+
+    
+    
+
+}
+

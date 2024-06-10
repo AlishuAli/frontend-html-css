@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="first.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    .navbar{
+        width: 100vw;
+        background-color: rgb(61, 60, 60);
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+        /* gap: 200px; */
+        align-items: center;
+
+    }
+    .logo{
+        color: rgb(252, 252, 228);
+        font-size: 2rem;
+        margin: .5rem;
+        
+    }
+    .nav-link ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        gap: 80px;
+    }
+    .nav-link li{
+        list-style: none;
+        font-size: 1.3rem;
+        gap: 100px;
+    }
+    .nav-link li a{
+        text-decoration: none;
+        color: rgb(253, 253, 229);
+        display: block;
+        padding: 1rem;
+        align-items: center;
+    }
+    .nav-link li:hover{
+        background-color: palevioletred;
+        
+    }
+    .button{
+        top: .75rem;
+        right: 1rem;
+        margin: .5rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+    .button .lines{
+        height: 3px;
+        width: 100%;
+        background-color: beige;
+        border-radius: 10px;
+    }
+    .nav-link ul li a.active,a:hover{
+        background-color: rgb(233, 85, 85);
+    }
+    @media (max-width: 700px){
+        .nav-link ul{
+            flex-direction: column;
+            gap: 0;
+            font-size: 1rem;    
+        }
+        .navbar{
+            display: block;
+        }
+        
+    }
+    @media (max-width: 300px){
+        .button{
+            display: flex;
+        }
+        .nav-link ul{
+            display: none;
+        }
+        .navbar{
+            display: flex;
+        }
+    }
+  
+    
+    
+
+
+    
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NAVxx</div>
+        <div class="nav-link">
+        <ul>
+            <li>
+                <a class="active" href="">Home</a>
+            </li>
+            <li>
+                <a href="#about">feature</a>
+            </li>
+            <li>
+                <a href="">about</a>
+            </li>
+            <li>
+                <a href="">services</a>
+            </li>
+            
+        </ul>
+    </div>
+    <a href="#" class="button">
+        <span class="lines"></span>
+        <span class="lines"></span>
+        <span class="lines"></span>
+    
+    </a>
+     
+    </nav>
+    <div class="thumb">
+        <div class="box">
+            <div class="search">
+                <input type="text" id="but" value="product living room">
+                <div id="se">
+                <input type="text" id="but" value="price $5000 & $990">
+                <button type="submit">search</button>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <script src="../java.js">
+       
+    
+    </script>
+    <div class="about">
+        <div id="first">
+        <div class="our">
+            <p id="story"> our story</p>
+            <p id="intro">Introduction Moso</p><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+             <p>Tempora neque molestiae maxime iusto </p>
+        </div>
+        <div class="secp">
+            <div class="under">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+             <p>Nam labore id, eos similique iure velit dolorem ipsam</p>
+             <p> dignissimos maiores accusantium eligendi explicabo</p>
+                 <p>maxime, impedit pariatur tempora dolores</p>
+             </div>   
+        </div>
+        </div>
+        
+        <div class="pic">
+            
+        </div>
+    
+        <div class="pic2">
+            
+        </div>
+    </div>
+    <!-- 3 page -->
+    <div class="third">
+        <div class="tit">
+            <p>Moso design shop</p>
+            <p>Interior product</p>
+        </div>
+        <div class="cen">
+        <div class="cen1"></div>
+        <div class="cen2"></div>
+        <div class="cen3"></div>
+        </div>
+        
+    </div>
+    <div class="four">
+        <div class="div"></div>
+        <div class="divs">
+            <P id="pae">OPENING    HOURS</P>
+            <P id="pae">Lorem ipsum  dolor sit  amet consectetur amet consectetur<br> Lorem ipsum dolor  sit amet consectetur amet consectetur <br>elit. Autem amet consecteturdoloremque   maiores optio<br> illum </P>
+        </div>
+    </div>
+    <div class="footer">
+        
+        <div class="foot"></div>
+        <div class="foot1"></div>
+        <div class="foot2"></div>
+
+    </div>
+
+</body>
+</html>
